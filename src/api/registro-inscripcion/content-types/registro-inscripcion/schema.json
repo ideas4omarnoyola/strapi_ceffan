@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "registro_inscripciones",
+  "info": {
+    "singularName": "registro-inscripcion",
+    "pluralName": "registro-inscripciones",
+    "displayName": "Registro_inscripciones"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nombre": {
+      "type": "string",
+      "required": true
+    },
+    "modalidad": {
+      "type": "string",
+      "required": true
+    },
+    "contacto": {
+      "type": "string",
+      "required": true
+    },
+    "informacion": {
+      "type": "text"
+    },
+    "curso": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

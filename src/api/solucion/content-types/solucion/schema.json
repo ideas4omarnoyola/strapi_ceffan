@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "soluciones",
+  "info": {
+    "singularName": "solucion",
+    "pluralName": "soluciones",
+    "displayName": "Soluciones"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "solucion": {
+      "type": "string",
+      "required": true
+    },
+    "url": {
+      "type": "uid",
+      "targetField": "solucion"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "categorias_cursos",
+  "info": {
+    "singularName": "categorias-curso",
+    "pluralName": "categorias-cursos",
+    "displayName": "Categorias_Cursos"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "categoria": {
+      "type": "string"
+    },
+    "cursos": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::curso.curso"
+    }
+  }
+}
