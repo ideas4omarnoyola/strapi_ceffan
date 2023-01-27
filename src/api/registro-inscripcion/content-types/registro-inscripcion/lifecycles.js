@@ -4,7 +4,7 @@ module.exports = {
 
         try{
             await strapi.plugins['email'].services.email.send({
-                to: 'omis1296@gmail.com',
+                to: 'marlem.reynoso@ideas4learning.com',
                 from: 'omar.noyola@ideas4learning.com', // e.g. single sender verification in SendGrid
                 subject: 'Nuevo registro',
                 html: `
@@ -17,8 +17,9 @@ module.exports = {
                         </div>
                 
                         <div style="padding: 20px">
-                            <p>${result.nombre} se registro al curso <span style="font-weight: 700">"${result.modalidad}"</span> en la modalidad <span style="font-style: italic;">{${result.modalidad}}</span> </p>
+                            <p>${result.nombre} se registro al curso <span style="font-weight: 700">"${result.curso}"</span> en la modalidad <span style="font-style: italic;">${result.modalidad}</span> </p>
                             <p><span style="font-weight: 700">Contacto:</span> ${result.contacto}</p>
+                            <p><span style="font-weight: 700">Informacion adicional:</span> ${result.informacion}</p>
                         </div>
                     </div>
                 </div>
