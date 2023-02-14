@@ -4,7 +4,8 @@
   "info": {
     "singularName": "proxima-fecha",
     "pluralName": "proximas-fechas",
-    "displayName": "Proximas_fechas"
+    "displayName": "Proximas_fechas",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -32,6 +33,9 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::curso.curso"
+    },
+    "proximamente": {
+      "type": "text"
     }
   }
 }
