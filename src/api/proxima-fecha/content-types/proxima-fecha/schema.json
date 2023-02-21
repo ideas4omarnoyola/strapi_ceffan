@@ -12,10 +12,10 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "inicio": {
+    "fecha1": {
       "type": "date"
     },
-    "fin": {
+    "fecha2": {
       "type": "date"
     },
     "duracion": {
