@@ -4,7 +4,8 @@
   "info": {
     "singularName": "registro-inscripcion",
     "pluralName": "registro-inscripciones",
-    "displayName": "Registro_inscripciones"
+    "displayName": "Registro_inscripciones",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -19,7 +20,7 @@
       "type": "string",
       "required": true
     },
-    "contacto": {
+    "telefono": {
       "type": "string",
       "required": true
     },
@@ -29,6 +30,9 @@
     "curso": {
       "type": "string",
       "required": true
+    },
+    "email": {
+      "type": "email"
     }
   }
 }
