@@ -36,6 +36,9 @@
     },
     "proximamente": {
       "type": "text"
+    },
+    "tiempo": {
+      "type": "string"
     }
   }
 }
