@@ -4,7 +4,8 @@
   "info": {
     "singularName": "curso",
     "pluralName": "cursos",
-    "displayName": "Cursos"
+    "displayName": "Cursos",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -24,6 +25,9 @@
     "url": {
       "type": "uid",
       "targetField": "nombre"
+    },
+    "visualizarFechas": {
+      "type": "boolean"
     }
   }
 }
