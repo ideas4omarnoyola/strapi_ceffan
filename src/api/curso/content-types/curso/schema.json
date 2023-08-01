@@ -28,6 +28,14 @@
     },
     "visualizarFechas": {
       "type": "boolean"
+    },
+    "botonElearning": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "paginaElearning": {
+      "type": "uid"
     }
   }
 }
