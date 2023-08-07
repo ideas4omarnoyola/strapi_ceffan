@@ -36,6 +36,9 @@
     },
     "paginaElearning": {
       "type": "uid"
+    },
+    "nota": {
+      "type": "richtext"
     }
   }
 }
